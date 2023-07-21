@@ -4,10 +4,10 @@
     "slug": "camera-int-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/camera.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/camera.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/camera.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.andremugabo.cameraintapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/camera.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ab1fe1a7-beda-445d-8ee8-c7df5a62a35b"
+      }
     }
   }
 }

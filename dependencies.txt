@@ -1,0 +1,4 @@
+ npm install expo-media-library
+ npm install expo-camera
+
+ https://expo.dev/accounts/andremugabo/projects/camera-int-app/builds/876d7fab-c42a-45d0-935d-3aed11fc9663
